@@ -1,4 +1,5 @@
 # Custom Object Detection Using TensorFlow
+#NOTE:- <strong>This is just a guide where we have shown how to program a custom object detection model and resources required to do it. This model will be helpful in detecting any object not only what we have used for. We highly recommend to use your own datasets(images/videos) during this process.</strong
  
 <p>This is the complete guide to show how to train and leverage your own custom object detection model using the Tensorflow Object Detection API. Here we have also added the required code and details like how the specific code works.</p>
 <br />
