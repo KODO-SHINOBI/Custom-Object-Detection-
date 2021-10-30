@@ -45,7 +45,7 @@ python -m ipykernel install --user --name=cod
 
 <b>Step 8.</b> During this process the Notebook will install Tensorflow Custom Object Detection. One should ideally receive a notification indicating that the API has installed successfully at Step 8 with the last line stating OK.  
 <img src="https://github.com/KODO-SHINOBI/Custom-Object-Detection-/blob/main/image/com.png">
-If not, the we can resolve installation errors by referring to the <a href="https://github.com/nicknochnack/Custom-Object-Detection/blob/main/README.md">Error Guide.md</a> in this folder.
+If not, the we can resolve installation errors by referring to the <a href="https://github.com/KODO-SHINOBI/Custom-Object-Detection-/blob/main/ERROR.md">Error Guide.md</a> in this folder.
 <br /> <br/>
 
 <b>Step 9.</b> Once we get to step 6. Train the model, inside of this guide, we may choose to train the model from within the notebook. As because training inside of a separate terminal on a Windows machine we're able to display live loss metrics. 
