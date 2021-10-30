@@ -36,28 +36,20 @@ pip install opencv-python --upgrade
 </pre>
  <br/> <br/>
  
-<b>Error-7:</b>When running GenerateTFRecords script you receive an error like the following:
-  <p>File "Tensorflow\scripts\generate_tfrecord.py", line 132, in create_tf_example
-    classes.append(class_text_to_int(row['class']))</p>
-  <p>File "Tensorflow\scripts\generate_tfrecord.py", line 101, in class_text_to_int
-    return label_map_dict[row_label]</p>
-<p>KeyError: 'ThumbsDown' # YOUR LABEL HERE</p>
+
+ 
+<b>Error-7:</b>When running training script from the command line, you get a No module error. e.g. ModuleNotFoundError: No module named 'cv2'
  <br/>
-<b>Solution-7:</b> This is likely because you mismatches between your annotations and your labelmap. Ensure that the label names from your annotations match the label map exactly, note it is case sensitive. 
+<b>Solution-7:</b> Remember you need to activate your environment at the command line in order to leverage all the packages you have installed in it. 
  <br/> <br/>
  
-<b>Error-8:</b>When running training script from the command line, you get a No module error. e.g. ModuleNotFoundError: No module named 'cv2'
- <br/>
-<b>Solution-8:</b> Remember you need to activate your environment at the command line in order to leverage all the packages you have installed in it. 
- <br/> <br/>
- 
-<b>Error-9:</b> When training, only the CPU is used and the GPU is ignored. 
+<b>Error-8:</b> When training, only the CPU is used and the GPU is ignored. 
 <br/>
-<b>Solution-9:</b> Ensure you have a matching CUDA and cuDNN version for your Tensorflow version installed. Windows:https://www.tensorflow.org/install/source_windows, Linux/macOS: https://www.tensorflow.org/install/source
+<b>Solution-8:</b> Ensure you have a matching CUDA and cuDNN version for your Tensorflow version installed. Windows:https://www.tensorflow.org/install/source_windows, Linux/macOS: https://www.tensorflow.org/install/source
  <br/> <br/>
  
-<b>Erro-10r:</b>CUBLAS_STATUS_ALLOC_FAILED or CUDNN_STATUS_ALLOC_FAILED <br/>
-<b>Solution-10:</b> This is because the available VRAM on your machine is completely consumed and there is no more memory available to train. Quit all of your Python programs and stop your Jupyter Notebook server to free up the VRAM and run the command again. 
+<b>Error-9:</b>CUBLAS_STATUS_ALLOC_FAILED or CUDNN_STATUS_ALLOC_FAILED <br/>
+<b>Solution-9:</b> This is because the available VRAM on your machine is completely consumed and there is no more memory available to train. Quit all of your Python programs and stop your Jupyter Notebook server to free up the VRAM and run the command again. 
  <br/> <br/>
 
 
