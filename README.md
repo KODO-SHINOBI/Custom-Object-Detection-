@@ -32,7 +32,7 @@ python -m ipykernel install --user --name=cod
 
 <b>Step 5.</b> One can collect images of their choice which must include:-(i)  objects that you want to detect<sup>**</sup>.
                                                                           (ii) images with different perspective<sup>**</sup>.
-<img src="https://i.imgur.com/8yac6Xl.png"> 
+<img src="https://github.com/KODO-SHINOBI/Custom-Object-Detection-/blob/main/image/dep.png"> 
 <br/>
 
 <b>Step 6.</b> Here we will need to do manual classification and therefore manually divide collected images into two folders train and test. So now all folders and annotations should be split between the following two folders. <br/>
@@ -44,12 +44,12 @@ python -m ipykernel install --user --name=cod
 <br /><br/>
 
 <b>Step 8.</b> During this process the Notebook will install Tensorflow Custom Object Detection. One should ideally receive a notification indicating that the API has installed successfully at Step 8 with the last line stating OK.  
-<img src="https://i.imgur.com/FSQFo16.png">
+<img src="https://github.com/KODO-SHINOBI/Custom-Object-Detection-/blob/main/image/com.png">
 If not, the we can resolve installation errors by referring to the <a href="https://github.com/nicknochnack/Custom-Object-Detection/blob/main/README.md">Error Guide.md</a> in this folder.
 <br /> <br/>
 
 <b>Step 9.</b> Once we get to step 6. Train the model, inside of this guide, we may choose to train the model from within the notebook. As because training inside of a separate terminal on a Windows machine we're able to display live loss metrics. 
-<img src="https://i.imgur.com/K0wLO57.png"> 
+<img src="https://github.com/KODO-SHINOBI/Custom-Object-Detection-/blob/main/image/ver.png"> 
 <br />
 
 <b>Step 10.</b> One/we can optionally evaluate their model inside of Tensorboard. Once the model has been trained and we have run the evaluation command under Step 7. We should navigate to the evaluation folder for the trained model e.g. 
